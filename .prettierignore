@@ -4,7 +4,7 @@ build
 .plasmo
 .DS_Store
 
-keys.json
+pnpm-lock.yaml
 .pnpm-debug.log*
 .env*
 .tsbuildinfo
