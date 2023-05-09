@@ -2,7 +2,7 @@
 	"name": "taboo",
 	"displayName": "Taboo",
 	"version": "0.0.0",
-	"description": "Modern and simple tab replacement for Chrome and Firefox.",
+	"description": "Modern and simple tab replacement for Chrome, Firefox, and Edge.",
 	"author": "screfy <screfy@proton.me>",
 	"scripts": {
 		"dev": "plasmo dev",
@@ -28,9 +28,6 @@
 		"typescript": "5.0.4"
 	},
 	"manifest": {
-		"host_permissions": [
-			"https://*/*"
-		],
 		"permissions": [
 			"tabs"
 		]
