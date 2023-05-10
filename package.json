@@ -10,6 +10,9 @@
 		"package": "plasmo package"
 	},
 	"dependencies": {
+		"@plasmohq/storage": "^1.5.0",
+		"@radix-ui/react-popover": "^1.0.5",
+		"lucide-react": "^0.215.0",
 		"plasmo": "0.70.1",
 		"react": "18.2.0",
 		"react-dom": "18.2.0"
