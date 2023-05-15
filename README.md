@@ -7,6 +7,7 @@
 <p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> ·
   <a href="#built-with"><strong>Built with</strong></a> ·
+  <a href="#downloads"><strong>Downloads</strong></a> ·
   <a href="#development"><strong>Development</strong></a> ·
   <a href="#license"><strong>License</strong></a>
 </p>
@@ -22,6 +23,11 @@ and distraction-free design.
 
 - [Plasmo Framework](https://plasmo.com)
 - [Tailwind CSS](https://tailwindcss.com)
+
+## Downloads
+
+- Chrome Web Store (pending review)
+- [Firefox Addon Store](https://addons.mozilla.org/en-US/firefox/addon/taboo)
 
 ## Development
 
