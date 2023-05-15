@@ -7,6 +7,7 @@
 <p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> ·
   <a href="#built-with"><strong>Built with</strong></a> ·
+  <a href="#development"><strong>Development</strong></a> ·
   <a href="#license"><strong>License</strong></a>
 </p>
 
@@ -21,6 +22,15 @@ and distraction-free design.
 
 - [Plasmo Framework](https://plasmo.com)
 - [Tailwind CSS](https://tailwindcss.com)
+
+## Development
+
+To run the extension locally, clone this repository, install dependencies by
+running `pnpm install` in the project root, then run `pnpm dev` and
+[load the extension](https://docs.plasmo.com/framework#loading-the-extension-in-chrome).
+
+To build the extension run `pnpm build`, see more about creating a production
+build [here](https://docs.plasmo.com/framework/workflows/build).
 
 ## License
 
