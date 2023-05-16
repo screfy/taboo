@@ -26,8 +26,8 @@ and distraction-free design.
 
 ## Downloads
 
-- Chrome Web Store (pending review)
-- [Firefox Addon Store](https://addons.mozilla.org/en-US/firefox/addon/taboo)
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/taboo/ekfjphnhgpanbfmlkoahkclckpbbpmgc)
+- [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/taboo)
 
 ## Development
 
