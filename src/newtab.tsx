@@ -88,7 +88,9 @@ function Option({
 			<div>
 				<p className="font-semibold">{label}</p>
 				{description && (
-					<p className="text-sm/tight text-neutral-400">{description}</p>
+					<p className="text-sm/tight text-neutral-600 dark:text-neutral-400">
+						{description}
+					</p>
 				)}
 			</div>
 			{children}
@@ -117,11 +119,11 @@ function Settings() {
 	return (
 		<PopoverPrimitive.Root>
 			<PopoverPrimitive.Trigger
-				className="focus:outline-none data-[state=open]:text-white/80"
+				className="text-black focus:outline-none data-[state=open]:text-black/80 dark:text-white dark:data-[state=open]:text-white/80"
 				aria-label="Settings"
 			>
 				<SettingsIcon
-					className="transition-colors hover:text-white/80"
+					className="text-black transition-colors hover:text-black/80 dark:text-white dark:hover:text-white/80"
 					width={18}
 					height={18}
 				/>
@@ -129,7 +131,7 @@ function Settings() {
 
 			<PopoverPrimitive.Portal>
 				<PopoverPrimitive.Content
-					className="w-[22rem] space-y-2.5 rounded-md bg-neutral-900 p-3.5 text-neutral-100 focus:outline-none"
+					className="w-[22rem] space-y-2.5 rounded-md bg-neutral-100 p-3.5 text-neutral-900 focus:outline-none dark:bg-neutral-900 dark:text-neutral-100"
 					align="start"
 					side="top"
 					sideOffset={10}
@@ -140,7 +142,7 @@ function Settings() {
 							<>
 								Provided by{' '}
 								<a
-									className="font-medium text-neutral-200 hover:underline"
+									className="font-medium text-neutral-800 hover:underline dark:text-neutral-200"
 									href="https://open-meteo.com"
 								>
 									Open-Meteo.com
@@ -168,7 +170,7 @@ function Settings() {
 										? ` to ${geolocation.latitude}, ${geolocation.longitude}.`
 										: '.'}{' '}
 									<button
-										className="font-medium text-neutral-200 hover:underline"
+										className="font-medium text-neutral-800 hover:underline dark:text-neutral-200"
 										aria-label="Reveal location coords"
 										onClick={() => {
 											setRevealGeolocation(
@@ -185,7 +187,7 @@ function Settings() {
 						}
 					>
 						<button
-							className="block w-20 rounded bg-neutral-950 py-1 text-sm font-semibold text-neutral-50 focus:outline-none"
+							className="block w-20 rounded bg-neutral-50 py-1 text-sm font-semibold text-neutral-950 focus:outline-none dark:bg-neutral-950 dark:text-neutral-50"
 							onClick={async () => {
 								const geolocation = await getGeolocation();
 								setGeolocation(geolocation);
@@ -197,7 +199,7 @@ function Settings() {
 
 					<Option label="Temperature Unit">
 						<select
-							className="appearance-none rounded bg-neutral-950 px-2 py-1 text-sm font-semibold text-neutral-50 hover:cursor-pointer focus:outline-none"
+							className="appearance-none rounded bg-neutral-50 px-2 py-1 text-sm font-semibold text-neutral-950 hover:cursor-pointer focus:outline-none dark:bg-neutral-950 dark:text-neutral-50"
 							value={temperatureUnit}
 							onChange={(e) => {
 								setTemperatureUnit(e.currentTarget.value as TemperatureUnit);
@@ -221,7 +223,7 @@ export default function NewTab() {
 		<main className="flex min-h-screen flex-col items-center justify-center">
 			<Time />
 
-			<div className="absolute bottom-6 flex w-full items-center justify-between px-6 font-semibold text-white/[55%]">
+			<div className="absolute bottom-6 flex w-full items-center justify-between px-6 font-semibold text-black/[55%] dark:text-white/[55%]">
 				<Settings /> {weatherEnabled && location && <Weather />}
 			</div>
 		</main>
