@@ -131,7 +131,7 @@ function Settings() {
 
 			<PopoverPrimitive.Portal>
 				<PopoverPrimitive.Content
-					className="w-[22rem] space-y-2.5 rounded-md bg-neutral-100 p-3.5 text-neutral-900 shadow-md focus:outline-none dark:bg-neutral-900 dark:text-neutral-100"
+					className="w-[22rem] space-y-2.5 rounded-md bg-neutral-100 p-3.5 text-neutral-900 shadow-md focus:outline-none dark:bg-neutral-900 dark:text-neutral-100 dark:shadow-none"
 					align="start"
 					side="top"
 					sideOffset={10}
