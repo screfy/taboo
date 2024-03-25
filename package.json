@@ -7,27 +7,27 @@
 	"scripts": {
 		"dev": "plasmo dev",
 		"build": "plasmo build",
-		"package": "plasmo package"
+		"package": "plasmo package",
+		"format": "prettier --write ."
 	},
 	"dependencies": {
-		"@plasmohq/storage": "^1.5.0",
-		"@radix-ui/react-popover": "^1.0.5",
-		"lucide-react": "^0.215.0",
-		"plasmo": "0.70.1",
+		"@plasmohq/storage": "^1.9.3",
+		"@radix-ui/react-popover": "^1.0.7",
+		"lucide-react": "^0.363.0",
+		"plasmo": "0.85.2",
 		"react": "18.2.0",
 		"react-dom": "18.2.0"
 	},
 	"devDependencies": {
-		"@plasmohq/prettier-plugin-sort-imports": "3.6.4",
-		"@types/chrome": "0.0.235",
-		"@types/node": "18.16.3",
-		"@types/react": "18.2.2",
-		"@types/react-dom": "18.2.3",
-		"autoprefixer": "^10.4.14",
-		"postcss": "^8.4.23",
-		"prettier": "2.8.8",
-		"prettier-plugin-tailwindcss": "^0.2.8",
-		"tailwindcss": "^3.3.2",
-		"typescript": "5.0.4"
+		"@types/chrome": "0.0.263",
+		"@types/node": "20.11.30",
+		"@types/react": "18.2.70",
+		"@types/react-dom": "18.2.22",
+		"autoprefixer": "^10.4.19",
+		"postcss": "^8.4.38",
+		"prettier": "3.2.5",
+		"prettier-plugin-tailwindcss": "^0.5.12",
+		"tailwindcss": "^3.4.1",
+		"typescript": "5.4.3"
 	}
 }
